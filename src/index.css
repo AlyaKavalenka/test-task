@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+body {
+  font-family: Manrope;
+  font-style: normal;
+}
+
+.main {
+  padding: 14px 24px;
+}
+.main__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--5, 18px);
+  flex: 1 0 0;
+  border-radius: 10px;
+  background: #F0F4FC;
+  overflow: hidden;
+}
+
+.demo {
+  display: flex;
+  padding: var(--3, 24px) var(--3, 24px) 0px var(--3, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--5, 18px);
+  align-self: stretch;
+}
+.demo__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--6, 14px);
+  align-self: stretch;
+  font-size: 13px;
+  color: var(--Black2, #727272);
+  line-height: 160%;
+}
+.demo__text_header {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--100, #1F4284);
+  line-height: 160%;
+}
+
+.btn-demo {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  padding: 10px 10px 10px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #FFF;
+  line-height: 160%;
+  background: var(--Unnamed-Color, #244C98);
+  border-radius: 60px;
+}
+.btn-demo__icon-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 40px;
+  background: #FFF;
+}
+
+.image-wrapper {
+  display: flex;
+}
+.image-wrapper__img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=index.css.map */
