@@ -31,6 +31,33 @@
           <img src="./assets/img/computer.png" alt="computer" class="image-wrapper__img" />
         </article>
       </section>
+      <aside class="modal">
+        <form class="modal-content">
+          <button type="button" class="btn-close">
+            <img src="./assets/svg/x.svg" alt="close">
+          </button>
+          <div class="form-wrapper">
+            <span class="form-wrapper__header">Войти в систему</span>
+            <div class="inputs-n-btns">
+              <div class="inputs-n-btns__top">
+                <div class="inputs-n-btns__inputs">
+                  <input type="text" name="login" id="login" placeholder="Email/Телефон" class="inputs-n-btns__input">
+                  <input type="password" name="password" id="password" placeholder="Пароль" class="inputs-n-btns__input">
+                </div>
+                <div class="remember">
+                  <input type="checkbox" name="remember" id="remember" class="remember__checkbox">
+                  <label for="remember">Запомнить пароль</label>
+                </div>
+                <button type="button" class="btn-reset">Восстановить</button>
+              </div>
+              <div class="inputs-n-btns__btns">
+                <button type="submit" class="btn_submit">Войти</button>
+                <button type="button" class="btn_register">Зарегистрироваться</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </aside>
     </main>
     <script src="../dist/index.js"></script>
   </body>
