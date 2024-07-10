@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="main__wrapper">
+        <article class="demo">
+          <div class="demo__text">
+            <h1 class="demo__text_header">Демо-версия</h1>
+            <span
+              >За 18 лет деятельности было реализовано более 500 крупных, а так
+              же, не менее 2500 средних и малых проектов. Используя знания и
+              накопленный опыт мы можем предложить
+            </span>
+          </div>
+
+          <button type="button" class="btn-demo" id="btn-try">
+            <span>Попробовать бесплатно</span>
+            <div class="btn-demo__icon-wrapper">
+              <img src="./src/assets/svg/arrow-up-right.svg" alt="arrow" />
+            </div>
+          </button>
+        </article>
+        <article class="image-wrapper">
+          <img src="./src/assets/img/computer.png" alt="computer" class="image-wrapper__img" />
+        </article>
+      </section>
+      <aside class="modal" id="modal">
+        <form class="modal-content">
+          <button type="button" class="btn-close" id="btn-close">
+            <img src="./src/assets/svg/x.svg" alt="close">
+          </button>
+          <div class="form-wrapper">
+            <span class="form-wrapper__header">Войти в систему</span>
+            <div class="inputs-n-btns">
+              <div class="inputs-n-btns__top">
+                <div class="inputs-n-btns__inputs">
+                  <input type="text" name="login" id="login" placeholder="Email/Телефон" class="inputs-n-btns__input">
+                  <input type="password" name="password" id="password" placeholder="Пароль" class="inputs-n-btns__input">
+                </div>
+                <div class="remember">
+                  <input type="checkbox" name="remember" id="remember" class="remember__checkbox">
+                  <label for="remember">Запомнить пароль</label>
+                </div>
+                <button type="button" class="btn-reset">Восстановить</button>
+              </div>
+              <div class="inputs-n-btns__btns">
+                <button type="submit" class="btn_submit">Войти</button>
+                <button type="button" class="btn_register">Зарегистрироваться</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </aside>
+    </main>
+    <script src="./dist/index.js"></script>
+  </body>
+</html>
