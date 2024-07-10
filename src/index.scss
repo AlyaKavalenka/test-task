@@ -26,9 +26,12 @@ body {
 
     @media (min-width: 1300px) {
       flex-direction: row;
-      align-items: center;
       gap: 70px;
       padding: 0;
+    }
+
+    @media (min-width: 1441px) {
+      gap: 320px;
     }
   }
 }
@@ -42,8 +45,13 @@ body {
   align-self: stretch;
 
   @media (min-width: 1300px) {
+    justify-content: center;
     gap: 36px;
     padding: 72px 0 72px 72px;
+  }
+
+  @media (min-width: 1441px) {
+    gap: 64px;
   }
 
   &__text {
@@ -63,6 +71,10 @@ body {
       font-size: 17px;
     }
 
+    @media (min-width: 1441px) {
+      gap: 36px;
+    }
+
     &_header {
       margin: 0;
 
@@ -73,6 +85,10 @@ body {
 
       @media (min-width: 1300px) {
         font-size: 26px;
+      }
+
+      @media (min-width: 1441px) {
+        font-size: 30px;
       }
     }
   }
@@ -133,9 +149,9 @@ body {
 
   &__img {
     width: 100%;
-    
+
     object-fit: cover;
-    
+
     @media (min-width: 1300px) {
       width: none;
       height: 100%;
