@@ -68,6 +68,10 @@ body {
   background: var(--Unnamed-Color, #244C98);
   border-radius: 60px;
 
+  @media (min-width: 376px) {
+    max-width: 261px;
+  }
+
   &__icon-wrapper {
     display: flex;
     align-items: center;
@@ -80,9 +84,14 @@ body {
 
 .image-wrapper {
   display: flex;
+  width: 100%;
+  
+  @media (min-width: 376px) {
+    max-height: 360px;
+  }
 
   &__img {
-    height: 100%;
+    width: 100%;
 
     object-fit: cover;
   }

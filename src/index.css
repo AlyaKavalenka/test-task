@@ -58,6 +58,11 @@ body {
   background: var(--Unnamed-Color, #244C98);
   border-radius: 60px;
 }
+@media (min-width: 376px) {
+  .btn-demo {
+    max-width: 261px;
+  }
+}
 .btn-demo__icon-wrapper {
   display: flex;
   align-items: center;
@@ -68,9 +73,15 @@ body {
 
 .image-wrapper {
   display: flex;
+  width: 100%;
+}
+@media (min-width: 376px) {
+  .image-wrapper {
+    max-height: 360px;
+  }
 }
 .image-wrapper__img {
-  height: 100%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }/*# sourceMappingURL=index.css.map */
