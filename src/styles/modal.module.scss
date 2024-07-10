@@ -39,6 +39,8 @@
   background: #FFF;
   border-radius: 10px;
   border: none;
+
+  cursor: pointer;
 }
 
 .form-wrapper {
@@ -135,6 +137,8 @@
       background: transparent;
       border: none;
       appearance: none;
+
+      cursor: pointer;
     }
 
     &__btns {
@@ -160,6 +164,8 @@
 
       border-radius: 4px;
       appearance: none;
+
+      cursor: pointer;
     }
 
     &_submit {

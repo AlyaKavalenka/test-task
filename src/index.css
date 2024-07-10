@@ -36,6 +36,7 @@
   background: #FFF;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .form-wrapper {
@@ -126,6 +127,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
 }
 .form-wrapper .inputs-n-btns__btns {
   display: flex;
@@ -147,6 +149,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   color: #FFF;
   background: var(--Unnamed-Color, #244C98);
   border: none;
@@ -164,6 +167,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   color: #244C98;
   background: transparent;
   border: 1px solid #244C98;
@@ -278,6 +282,7 @@ body {
   line-height: 160%;
   background: var(--Unnamed-Color, #244C98);
   border-radius: 60px;
+  cursor: pointer;
 }
 @media (min-width: 376px) {
   .btn-demo {
